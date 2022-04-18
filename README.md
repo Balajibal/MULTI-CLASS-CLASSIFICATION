@@ -50,9 +50,7 @@ pyplot.show()
 
 
 ## Output:
-![Screenshot (5)](https://user-images.githubusercontent.com/75234946/163753372-cb1b81d7-e150-4886-9d76-4641ef51bbcf.png)
-
-
+![Screenshot (5)](https://user-images.githubusercontent.com/75234946/163753439-9a950ad1-cdc4-4bf3-8bab-fdf776497df4.png)
 
 ## Result:
 Thus the python program to implement the multi class classification was implemented successfully.
