@@ -1,8 +1,6 @@
-### EX NO: 03
-### DATE: 08.04.2022
-
-
-# <p align="center"> MULTI-CLASS-CLASSIFICATION</p>
+### EX NO:03
+### DATE:08.04.2022
+# <p align="center">MULTI-CLASS-CLASSIFICATION</p>
 ## Aim:
 To write a python program to implement the multi class classification algorithm .
 
@@ -11,29 +9,29 @@ To write a python program to implement the multi class classification algorithm 
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner / Google Colab
 
 ## Related Theoritical Concept:
-Multiclass Classification
+### Multiclass Classification
 In multi-class classification, the neural network has the same number of output nodes as the number of classes. Each output node belongs to some class and outputs a score for that class. Class is a category for example Predicting animal class from an animal image is an example of multi-class classification, where each animal can belong to only one category.
 
-The number of classifier models depends on the classification technique we are applying to. •One vs. All:- N-class instances then N binary classifier models •One vs. One:- N-class instances then N* (N-1)/2 binary classifier models •The Confusion matrix is easy to derive but complex to understand.
-
-
+The number of classifier models depends on the classification technique we are applying to.\
+•One vs. All:- N-class instances then N binary classifier models.\
+•One vs. One:- N-class instances then N* (N-1)/2 binary classifier models.\
+•The Confusion matrix is easy to derive but complex to understand.
 
 ## Algorithm
-1.define dataset with centers=3\
-2.summarize dataset shape\
-3.ummarize observations by class label\
-4.summarize first few examples\
-5.plot the dataset and color the by class label\
+1.define dataset with centers=3.\
+2.summarize dataset shape.\
+3.ummarize observations by class label.\
+4.summarize first few examples.\
+5.plot the dataset and color the by class label
 
 ## Program:
 ```
 /*
 Program to implement the multi class classifier.
-Developed by: 212220230006
-RegisterNumber:  BALAJI N
+Developed by: Balaji N
+RegisterNumber: 212220230006
 */
 ```
-
 ```python
 from numpy import where
 from collections import Counter
@@ -52,11 +50,8 @@ for label, _ in counter.items():
 pyplot.legend()
 pyplot.show()
 
-
+```
 ## Output:
-```
-![Screenshot (5)](https://user-images.githubusercontent.com/75234946/163753439-9a950ad1-cdc4-4bf3-8bab-fdf776497df4.png)
-```
-
+![Screenshot (2)](https://user-images.githubusercontent.com/75235334/163753375-ea010bad-ddd6-4474-a582-c8f423b7e0b6.png)
 ## Result:
 Thus the python program to implement the multi class classification was implemented successfully.
